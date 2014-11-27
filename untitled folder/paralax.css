@@ -13,8 +13,53 @@ body
  font-weight: 300;
  line-height: 1.429;
 }
-
+#pagetop
+{
+position:fixed;
+top:0px;
+width:80%;
+height:120px;
+background: #06C;
+color: #FFF;
+font-size:23px;
+padding-top:50px;
+transition:height 0.3s linear 0s, padding 0.3s linear 0s;
+overflow:hidden;
+z-index:200;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+/*.header
+{
+	height: 120px;
+	top: 0px;
+	
+	z-index: 10;
+	position: fixed;
+	background: #fff;
+	border-bottom: solid thin #ccc;
+	clear:both;
+margin:0 auto;
+width:80%;
+}
+.logo
+{
+	float: left;
+	font-family: "Raleway", sans-serif;
+	font-size:20px;
+	color: #0022B7;
+}
+#banner
+{
+	
+	height: 550px;
+	position: relative;
+	top: 100px;
+	background: url(banner.jpg);
+	background-size: cover;
+}
+*/
 /*=======Body content width=======*/
+}
 .body
 {
 clear:both;
@@ -40,7 +85,10 @@ a:hover, a:active {
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  margin-bottom: 1%;
+  /*margin-bottom: 1%;*/
+  transition:height 0.3s linear 0s;
+position:absolute;
+bottom: 0px;
 }
 #navigation ul {
   list-style: none;
@@ -161,6 +209,7 @@ a:hover, a:active {
 .container 
 {
 overflow: hidden;
+margin-top:200px;
 line-height: 25px;
 border-radius: 5px;
 -moz-border-radius: 5px;
@@ -337,6 +386,17 @@ padding: 2% 3%;
   opacity:0.6;
 }
 .left:hover .left1
+.footer{}
+
+.mainFooter p {
+	width: 100%;
+	margin: 2% auto;
+	background-color:#ccc;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	padding-left: 0;
+	text-align:center;
+}
 
 
 

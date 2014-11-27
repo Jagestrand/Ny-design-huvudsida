@@ -7,11 +7,44 @@
         	<meta charset="utf-8">
         	<link type="text/css" rel="stylesheet" href="paralax.css"> 
         	<script type="text/javascript" src='slider.js'></script>
-                <link rel="SHORTCUT ICON"href="image/shortcut.jpg">
+                <link rel="SHORTCUT ICON" href="image/shortcut.jpg">
+                <script>
+var pagetop, menu, yPos;
+function yScroll(){
+        pagetop = document.getElementById('pagetop');
+        menu = document.getElementById('menu');
+        yPos = window.pageYOffset;
+        if(yPos > 150){
+                pagetop.style.height = "36px";
+                pagetop.style.paddingTop = "8px";
+                menu.style.height = "0px";
+        } else {
+                pagetop.style.height = "120px";
+                pagetop.style.paddingTop = "50px";
+                menu.style.height = "50px";
+        }
+}
+window.addEventListener("scroll", yScroll);
+</script>
 </head>
 
 <body class="body">
+   <!--      <div class="header">
+                                
+                        <div class="container">
+                                        
+                                <div class="logo">
+                                        <h1>Frölunda Indians</h1>
+                                </div>
+                        </div>
+        </div>
 
+                <div id="banner"> 
+                        <img src="http://i.ytimg.com/vi/AxQz9m-VWwU/maxresdefault.jpg" height="450px" width="100%" alt="A picture of a Frölunda player lifting the thropy." />
+                </div>
+ -->
+ <div id="pagetop">
+  header
         <div id="navigation">
                 <ul>
                         <li class='active'><a href='#'><span>Hjem</span></a></li>
@@ -21,6 +54,8 @@
                         <li class='last'><a href='kontakt.html'><span>Kontakt</span></a></li>
                 </ul>
         </div>
+</div>
+
         <div class="container">
                 <div class="content">   
                                 <div class="top-content">    
@@ -29,44 +64,47 @@
                                                 <img src="Images2/img1.jpg" alt="image of restaurant" id="image" >
                                                 <div class="left_hold"><img onClick="photo(-1)" class="leftway" alt="swap left image" src="Images2/arrow_left.png"></div>
                                                 <div class="right_hold"><img onClick="photo(1)" class="rightway" alt="Swap right arrow" src="Images2/arrow_right.png"></div>
-                                        </div>
+                                                </div>
                                 </div>
 
                                  <div class="mid-content"> 
                                         
                                                 <h2><a href="#" rel="bookmark" title="Link to full article">Balkan Pizza og Kebab</a></h2>
-                                                <img src="images2/Balkan kebab house.jpg">
-                                                <p>Kebab i pitabrød, liten / stor: En størrelse: 75,00,-<br></br>Balkan Pizza og Kebab House blir for mange regnet som Oslo’s beste kebab, og ryktene er ikke helt gale, hos Balkan får du en svær kebab, fantastisk kjøtt, fantastisk saus, byens desidert beste brød (de baker brødet selv) og rask betjening. Men det er ikke billig, langt ifra, en kebab i pita hos Balkan koster hele 75 kroner, og det er uten brus!</p>
+                                                <img src="images2/Balkan kebab house.jpg" alt="image of balkan kebab">
+                                                <p>Kebab i pitabrød, liten / stor: En størrelse: 75,00,-</p> <p>Balkan Pizza og Kebab House blir for mange regnet som Oslo’s beste kebab, og ryktene er ikke helt gale, hos Balkan får du en svær kebab, fantastisk kjøtt, fantastisk saus, byens desidert beste brød (de baker brødet selv) og rask betjening. Men det er ikke billig, langt ifra, en kebab i pita hos Balkan koster hele 75 kroner, og det er uten brus!</p>
                                 </div>
                                 <div class="bottom-content"> 
                                         
                                                 <h2><a href="#" rel="bookmark" title="Link to full article">Bislett Kebab</a></h2>
-                                                <img src="images2/Bislett kebab avd bislett.jpg">
-                                                <p>Bislett Kebab House avd. Bislett er den andre kebab restauranten til Bislett Kebab.<br></br> Den ble opprettet av to brødre på midten av 90-tallet og blir sett på som ”hoved” Bislett Kebab restauranten. Bislett Kebab er kjent for god mat, rask service, heftige porsjoner og ikke minst lave priser. Lokalene er pene og betjeningen er hyggelig.Selve kebaben er fantastisk. Hos Bislett Kebab får du en svær (selger den som ”liten” kebab) til 49 kroner.</p>
+                                                <img src="images2/Bislett kebab avd bislett.jpg" alt="image of bislett kebab">
+                                                <p>Bislett Kebab House avd. Bislett er den andre kebab restauranten til Bislett Kebab.</p> <p>Den ble opprettet av to brødre på midten av 90-tallet og blir sett på som ”hoved” Bislett Kebab restauranten. Bislett Kebab er kjent for god mat, rask service, heftige porsjoner og ikke minst lave priser. Lokalene er pene og betjeningen er hyggelig.Selve kebaben er fantastisk. Hos Bislett Kebab får du en svær (selger den som ”liten” kebab) til 49 kroner.</p>
                                 
                                 </div>
+                </div>
+
+                        <div class="sidebar1">
+                                <h2>Top Sidebar</h2>
+                                <p>Discover how to use new techniques to achieve an outstanding, cross-browser HTML5.</p>
                         </div>
-
-                                <div class="sidebar1">
-                                        <h2>Top Sidebar</h2>
-                                        <p>Discover how to use new techniques to achieve an outstanding, cross-browser HTML5.</p>
-                                </div>
                                 
-                                <div class="sidebar2">
-                                        <h2>Middle Sidebar</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>                                
+                        <div class="sidebar2">
+                                <h2>Middle Sidebar</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>                                
 
-                                <div class="sidebar3">
-                                        <h2>Bottom Sidebar</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod expedita distinctio.</p>
-                                </div>  
+                        <div class="sidebar3">
+                                <h2>Bottom Sidebar</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod expedita distinctio.</p>
+                        </div>  
 
-                                <div class="sidebar4">
-                                        <h2>Bottom Sidebar</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod expedita distinctio.</p>
-                                </div>
-                </div>  
+                        <div class="sidebar4">
+                                <h2>Bottom Sidebar</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod expedita distinctio.</p>
+                        </div>
+        </div> 
+        <div class="mainFooter">
+                <p>Copyright &copy; 2014 <a href="#">Thundercats</a></p>
+        </div>
 
 </body>
 
