@@ -19,45 +19,15 @@ position:fixed;
 top:0px;
 width:80%;
 height:120px;
-background: #06C;
-color: #FFF;
+background: url(Oslologo.png);
 font-size:23px;
 padding-top:50px;
 transition:height 0.3s linear 0s, padding 0.3s linear 0s;
 overflow:hidden;
 z-index:200;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-/*.header
-{
-	height: 120px;
-	top: 0px;
-	
-	z-index: 10;
-	position: fixed;
-	background: #fff;
-	border-bottom: solid thin #ccc;
-	clear:both;
-margin:0 auto;
-width:80%;
-}
-.logo
-{
-	float: left;
-	font-family: "Raleway", sans-serif;
-	font-size:20px;
-	color: #0022B7;
-}
-#banner
-{
-	
-	height: 550px;
-	position: relative;
-	top: 100px;
-	background: url(banner.jpg);
-	background-size: cover;
-}
-*/
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+
 /*=======Body content width=======*/
 }
 .body
@@ -67,6 +37,11 @@ margin:0 auto;
 width:80%;
 }
 /*=======Article headers=========*/
+
+h1,h2,h3,h4,h5,h6
+{
+	color: #ac060f;
+}
 a:link, a:visited {
 	text-decoration: none;
 	color: #ac060f;
@@ -80,13 +55,10 @@ a:hover, a:active {
 /*========Navigation bar=========*/
 }
 #navigation {
-  background: #555;
-  width: 100%;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  /*margin-bottom: 1%;*/
-  transition:height 0.3s linear 0s;
+background: #555;
+width: 100%;
+border-radius: 5px;
+transition:height 0.3s linear 0s;
 position:absolute;
 bottom: 0px;
 }
@@ -212,16 +184,15 @@ overflow: hidden;
 margin-top:200px;
 line-height: 25px;
 border-radius: 5px;
--moz-border-radius: 5px;
--webkit-border-radius: 5px;
+
 }
 
 .top-content 
 {
 background-color: #FFF;
 border-radius: 5px;
--moz-border-radius: 5px;
--webkit-border-radius: 5px;	
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;	
 padding: 3% 5%;	
 margin-bottom: 1%;
 }
@@ -230,8 +201,8 @@ margin-bottom: 1%;
 {
 background-color: #FFF;	
 border-radius: 5px;
--moz-border-radius: 5px;
--webkit-border-radius: 5px;	
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;	
 padding: 3% 5%;
 margin-bottom: 1%;	
 
@@ -254,8 +225,8 @@ margin-right:1%;
 {
 background-color: #FFF;	
 border-radius: 5px;
--moz-border-radius: 5px;
--webkit-border-radius: 5px;	
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;	
 padding: 3% 5%;
 margin-bottom: 1%;
 }
@@ -279,8 +250,8 @@ margin-right:1%;
 width: 68%;
 float: left;
 border-radius: 5px;
--moz-border-radius: 5px;
--webkit-border-radius: 5px;	
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;	
 }
 /*=========Sidebar area========*/
 .sidebar1 
@@ -292,9 +263,15 @@ border-radius: 5px;
 background-color: #FFF;	
 padding: 2% 3%;
 margin-bottom: 1%;
--moz-border-radius: 20px;
--webkit-border-radius: 20px;	
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;	
 }
+
+#list2 { width:100%; }
+#list2 ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#bfe1f1;  }
+#list2 ol li { }
+#list2 ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:rgb(000, 000, 000); border-left: 1px solid #999; }
+#list2 ol li p em { display:block; }
 
 .sidebar2 
 {
@@ -305,8 +282,8 @@ border-radius: 5px;
 background-color: #FFF;	
 margin-bottom: 1%;
 padding:2% 3%;
--moz-border-radius: 20px;
--webkit-border-radius: 20px;	
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;	
 }
 
 .sidebar3 
@@ -318,8 +295,8 @@ border-radius: 30px;
 background-color: #FFF;	
 padding: 2% 3%;
 margin-bottom: 1%;
--moz-border-radius: 20px;
--webkit-border-radius: 20px;	
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;	
 }
 
 .sidebar4 
@@ -330,8 +307,8 @@ margin-left: 1%;
 border-radius: 35px;
 background-color: #FFF;	
 padding: 2% 3%;
--moz-border-radius: 20px;
--webkit-border-radius: 20px;	
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;	
 }
 /*========Sideslider in content area========*/
 
@@ -350,14 +327,14 @@ padding: 2% 3%;
   float: left;
   }
 .left_hold {
-  height: 502px;
+  height: 350px;
   width: 100px;
   position: absolute;
   top: 0px;
   left: 0px;
 }
 .right_hold {
-  height: 502px;
+  height: 350px;
   width: 100px;
   position: absolute;
   top: 0px;
@@ -392,10 +369,32 @@ padding: 2% 3%;
 	width: 100%;
 	margin: 2% auto;
 	background-color:#ccc;
-	-moz-border-radius: 20px;
-	-webkit-border-radius: 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	padding-left: 0;
 	text-align:center;
+}
+
+#twitt{
+  float: left;
+  /*right: 900px;*/
+
+}
+#faceb{
+  float: left;
+  overflow:hidden;
+  width:100px;
+  height:20px;
+  float:left;
+  /*right: 900px;*/
+/*  margin-left: 50%; */  /*71%*/
+  z-index: 200;
+  top: 0px;
+}
+#insta{
+  float: left;
+
+  z-index: 1;
 }
 
 
