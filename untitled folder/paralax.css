@@ -30,8 +30,8 @@ z-index:200;
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 }
-/*=====Body content width=====*/
 
+/*=====Body content width=====*/
 .body
 {
 clear:both;
@@ -112,7 +112,7 @@ text-decoration: none;
 display: block;
 padding: 15px 25px;
 font-family: 'Open Sans', sans-serif;
-font-weight: 700;
+font-weight: 800;
 text-transform: uppercase;
 font-size: 14px;
 position: relative;
@@ -162,11 +162,6 @@ background: #333333;
 #cssmenu ul li:last-child > a:after 
 {
 display: none;
-}
-
-#navigation ul li.active a:before 
-{
-width: 100%;
 }
 
 #navigation.align-right li.last > a:after,
