@@ -222,7 +222,7 @@
 
 //Instagram kode
 (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src="http://instagramfollowbutton.com/components/instagram/v2/js/ig-follow.js";s.parentNode.insertBefore(g,s);}(document,"script"));
-//Slutt Instagram kode
+
 
 //Sideslider start
 var imageCount = 1;
@@ -243,7 +243,7 @@ window.setInterval(function photoA() {
     if(imageCount < 1){imageCount = total;}
         image.src = "Images2/img"+ imageCount +".jpg";
 },5000);
-//Sideslider slutt
+
 
 //Slider for body//
              
