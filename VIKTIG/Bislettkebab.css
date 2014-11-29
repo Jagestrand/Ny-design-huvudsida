@@ -4,13 +4,17 @@
 
 body
 {
- background: url(http://filmfenix.se/wp-content/uploads/2012/02/cars2-01.jpg);
- color:rgb(000, 000, 000);
  text-align:left;
  padding:0px;
  margin:0px;
  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
  font-weight: 300;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background: url(icons/bakgrunn.jpg)no-repeat center center fixed; ;
+background-size: 100% 100%;
 }
 
 /*=====Article headers=====*/
@@ -47,7 +51,7 @@ position:fixed;
 top:0px;
 width:80%;
 height:120px;
-background-image:url(imageedit_3_9271999895.png);
+background-image:url(icons/kebab.png);
 background-size:100% 100%;
 font-size:23px;
 padding-top:50px;

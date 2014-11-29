@@ -4,14 +4,17 @@
 
 body
 {
- background: url(icons/10815330_10152576037203865_1306231061_o.jpg);
- background-size: 100% 100%;
- color:rgb(000, 000, 000);
  text-align:left;
  padding:0px;
  margin:0px;
  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
  font-weight: 300;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ background: url(icons/bakgrunn.jpg)no-repeat center center fixed; ;
+ background-size: 100% 100%;
 }
 
 /*=====Article headers=====*/
