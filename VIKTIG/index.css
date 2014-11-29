@@ -4,7 +4,8 @@
 
 body
 {
- background: url(http://filmfenix.se/wp-content/uploads/2012/02/cars2-01.jpg);
+ background: url(icons/10815330_10152576037203865_1306231061_o.jpg);
+ background-size: 100% 100%;
  color:rgb(000, 000, 000);
  text-align:left;
  padding:0px;
@@ -47,7 +48,7 @@ position:fixed;
 top:0px;
 width:80%;
 height:120px;
-background-image:url(imageedit_3_9271999895.png);
+background-image:url(icons/kebab.png);
 background-size:100% 100%;
 font-size:23px;
 padding-top:50px;
