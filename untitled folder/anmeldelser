@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+
+<head lang="en">
+	<title>Kebab i Oslo</title>
+        	<!--<meta charset="utf-8">-->
+        	<link type="text/css" rel="stylesheet" href="paralax.css">
+        	<script type="text/javascript" src='slider.js'></script>
+                <link rel="SHORTCUT ICON" href="image/shortcut.jpg">
+
+</head>
+
+<body class="body">
+   <!--      <div class="header">
+
+                        <div class="container">
+
+                                <div class="logo">
+                                        <h1>Frölunda Indians</h1>
+                                </div>
+                        </div>
+        </div>
+
+                <div id="banner">
+                        <img src="http://i.ytimg.com/vi/AxQz9m-VWwU/maxresdefault.jpg" height="450px" width="100%" alt="A picture of a Frölunda player lifting the thropy." />
+                </div>
+ -->
+ <div id="pagetop">
+        <div id="navigation">
+                <ul>
+                        <li><a href='paralax.html'><span>Hjem</span></a></li>
+                        <li class='active'><a href='#'><span>Anmeldelser</span></a></li>
+                        <li><a href='mal.php'><span>Restauranter </span></a></li>
+                        <li><a href='omoss.html'><span>Om oss</span></a></li>
+                        <li class='last'><a href='kontakt.html'><span>Kontakt</span></a></li>
+                </ul>
+        </div>
+</div>
+
+        <div class="container">
+                <div class="content">
+                                <div class="mid-content">
+
+                                        <h2><a href="#" rel="bookmark" title="Link to full article">Kebabbiten</a></h2>
+										<img src="images2/Kebabbiten.jpg" alt="image of kebabbiten">
+										<p>Kebabbiten er en kebabkjede i Oslo som ble startet opp i 1994, nå har de 3 avdelinger.</p> <p>Kebabbiten tilbyr en helt ok porsjon kebab til 47 kroner. Kebabbiten tilbyr ikke noe utover det vanlige, helt grei kebab, brød, grønnsaker og saus. Kjøttet til Kebabbiten er egentlig veldig skuffende, et eller annet ved det gjør at de smaker så tamt, men det kommer varmt og ikke svidd i kebaben, og det er ingen katastrofe på smak.</p>
+
+                                </div>
+
+                                 <div class="mid-content">
+                                         <h2><a href="#" rel="bookmark" title="Link to full article">Balkan Pizza og Kebab</a></h2>
+                                         <img src="images2/Balkan kebab house.jpg" alt="image of balkan kebab">
+                                         <p>Kebab i pitabrød, liten / stor: En størrelse: 75,00,-</p> <p>Balkan Pizza og Kebab House blir for mange regnet som Oslo’s beste kebab, og ryktene er ikke helt gale, hos Balkan får du en svær kebab, fantastisk kjøtt, fantastisk saus, byens desidert beste brød (de baker brødet selv) og rask betjening. Men det er ikke billig, langt ifra, en kebab i pita hos Balkan koster hele 75 kroner, og det er uten brus!</p>
+                                </div>
+
+                                <div class="mid-content">
+                                         <h2><a href="#" rel="bookmark" title="Link to full article">Bislett Kebab</a></h2>
+                                         <img src="images2/Bislett kebab avd bislett.jpg" alt="image of bislett kebab">
+                                         <p>Bislett Kebab House avd. Bislett er den andre kebab restauranten til Bislett Kebab.</p> <p>Den ble opprettet av to brødre på midten av 90-tallet og blir sett på som ”hoved” Bislett Kebab restauranten. Bislett Kebab er kjent for god mat, rask service, heftige porsjoner og ikke minst lave priser. Lokalene er pene og betjeningen er hyggelig.Selve kebaben er fantastisk. Hos Bislett Kebab får du en svær (selger den som ”liten” kebab) til 49 kroner.</p>
+                                </div>
+
+                                <div class="mid-content">
+								         <h2><a href="#" rel="bookmark" title="Link to full article">St. Hanshaugen Kebab</a></h2>
+								         <img src="images2/Sthanshaugenkebab.jpg" alt="image of st. hanshaugen kebab">
+								         <p>St. Haugen Kebab er en veldig billig kebab restaurant som ligger på Bislett opp mot St. Haugen.</p> <p>St. Hanshaugen Kebab er en veldig billig kebab restaurant som ligger på Bislett opp mot St. Hanshaugen. Veldig ofte så finner man restauranter som tilbyr kebab for en veldig billig penge, men som også er kjempegod. St. Hanshaugen Kebab er ikke et slikt tilfelle. Denne restauranten gav meg den verste kebabopplevelsen jeg noen sinne har opplevd.</p>
+							    </div>
+
+                </div>
+
+                        <div class="sidebar1">
+                             <h2>Ukas beste</h2>
+                                <div id="list2">
+   									<ol>
+   										<img src="image/fem.jpg" id="Terningkast">
+      									<li><p><a href="Bislettkebab.html" title="Bislett Kebab">Bislett Kebab & Pizza House avd. Bislett</a></p></li>
+      									<br>
+      									<img src="image/fem.jpg" id="Terningkast">
+      									<li><p><a href="Balkan.html" title="Balkan Kebab">Balkan Pizza og Kebab</a></p></li>
+   									</ol>
+								</div>
+                        </div>
+
+                        <div class="sidebar2">
+                                <h2>Ukas verste</h2>
+                                <div id="list2">
+								   <ol>
+								   	  <img src="image/to.jpg" id="Terningkast">
+								      <li><p><a href="sthaugen.html" title="St. Hanshaugen Kebab">St. Hanshaugen Kebab</a></p></li>
+								      <br>
+								      <img src="image/tre.png" id="Terningkast">
+								      <li><p><a href="kebabbiten.html" title="Kebabbiten Kebab">Kebabbiten avd. Pilestredet 63</a></p></li>
+								   </ol>
+								</div>
+                        </div>
+
+                        <div class="sidebar3">
+                                <h2>Folk på gata</h2>
+                                <p><q>Balkan Kebab er den diggeste maten i hele kebabland!</q> - Ermal</p>
+                                <p><q>Bislett er rå på kebab! Fins ikke bedre!</q> - Nicko</p>
+                                <p><q>Bislett er det beste du finner! Ingen kan slå dem på smak eller saus!</q> - Ola</p>
+                                <p><q>Kebabbiten kylling er digg som fillern! Fyllemaaaat!!</q> - Muhammed</p>
+                                <p><q>Som student er Kebabbiten billig og nærme, men Bislett er klart bedre på smak og kebab.</q> - Lars</p>
+                        </div>
+
+                        <div class="sidebar4">
+                            <h2>Kommende anmeldelser</h2>
+                               <div id="list2">
+                                <ol>
+                                	<li><p>Oslo Kebab og Pizzahus</p></li>
+                                	<li><p>New Winny Kebab</p></li>
+                                	<li><p>Bellino Pizza og Kebab</p></li>
+                                	<li><p>Dronningens Kebab</p></li>
+                        	</div>
+                  		</div>
+        </div>
+        <div class="mainFooter">
+                <p>Copyright &copy; 2014 <a href="#">Thundercats</a></p>
+                <div id="faceb">
+                        <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com/pages/Kebab-i-Oslo/1588977414659426?fref=ts&amp;layout=button_count&amp;show_faces=true&amp;action=like&amp;colorscheme=light"scrolling="no" frameborder="0">
+                        </iframe>
+                </div>
+                <div id="twitt"> <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://twitter.com/kebabioslo">Tweet</a>
+                </div>
+                <div id="insta">
+                        <span class="ig-follow" data-id="fa337aa667" data-count="true" data-size="small" data-username="false">
+                        </span>
+                </div>
+        </div>
+
+</body>
+
+
+</html>
